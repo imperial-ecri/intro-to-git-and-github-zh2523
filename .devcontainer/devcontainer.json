@@ -1,0 +1,16 @@
+{
+    "name": "Git Teaching Container",
+    "settings": {
+      "extensions.ignoreRecommendations": true,
+      "git.confirmSync": false,
+      "git.autofetch": true,
+      "git.rebaseWhenSync": true,
+      "terminal.integrated.ignoreProcessKeybindingWarnings": true,
+      "files.exclude": {
+        "**/.devcontainer": true
+      }
+    },
+    "extensions": [
+      "mhutchie.git-graph"
+    ]
+  }
